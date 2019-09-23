@@ -6,13 +6,14 @@ Get images urls from a given DOM Element
 ```sh
     npm i dom-images-extractor
 ```
-Import as es module
 
+Import as es module
 ```js   
     import findImagesFrom from dom-images-extractor
 ```
+
 or for browser use:
-```js   
+```html   
     <script src="dist/dom-images-extractor.min.js"></script>
 ```
 
