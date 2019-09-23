@@ -1,5 +1,9 @@
 const findImagesFrom = element => {	
-    const elements = element.querySelectorAll("*");
+	if(!element || element.nodeType !== 1){
+		return false;
+    }
+    
+	const elements = element.querySelectorAll("*");
 	const images = [...elements].map(el => {
         const tagName = el.tagName.toLowerCase();
 		if(tagName.toLowerCase() === 'img' || tagName.toLowerCase() === 'image'){
