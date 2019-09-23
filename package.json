@@ -1,6 +1,6 @@
 {
     "name": "dom-images-extractor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use for get images url from dom element",
     "main": "dist/bundle.js",
     "scripts": {
