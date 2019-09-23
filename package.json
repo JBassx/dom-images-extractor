@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jbassx/dom-images-extractor"
+        "url": "git+https://github.com/JBassx/dom-images-extractor"
     },
     "keywords": [
         "images",
@@ -22,9 +22,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jbassx/dom-images-extractor"
+        "url": "https://github.com/JBassx/dom-images-extractor"
     },
-    "homepage": "https://github.com/jbassx/dom-images-extractor#readme",
+    "homepage": "https://github.com/JBassx/dom-images-extractor#readme",
     "devDependencies": {
         "@babel/core": "^7.6.0",
         "@babel/preset-env": "^7.6.0",
