@@ -1,0 +1,39 @@
+{
+    "name": "dom-images-extractor",
+    "version": "1.0.0",
+    "description": "Use for get images url from dom element",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "test": "jest test/test.js",
+        "build": "rollup --config rollup.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jbassx/dom-images-extractor"
+    },
+    "keywords": [
+        "images",
+        "url"
+    ],
+    "author": {
+        "name": "Giuseppe Ciullo",
+        "email": "code@giuseppeciullo.it",
+        "url": "https://giuseppeciullo.it"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jbassx/dom-images-extractor"
+    },
+    "homepage": "https://github.com/jbassx/dom-images-extractor#readme",
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
+        "babel-jest": "^24.9.0",
+        "eslint": "^6.4.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "jest": "^24.9.0",
+        "rollup": "^1.21.4",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-terser": "^5.1.2"
+    }
+}
